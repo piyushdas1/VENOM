@@ -256,3 +256,11 @@
 	<!--............. program counter info ..................-->
 
 </Machine>
+INP
+STA NUM
+INP
+OR NUM
+OUT
+HLT
+
+NUM: .data 1 0

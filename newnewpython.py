@@ -331,4 +331,23 @@ to maintain the count. """
 # height = int(input("Enter pyramid height: "))
 # pyramid(height)
 # reverse_pyramid(height)
+"""7. Write a function that accepts two strings and returns the indices of all the occurrences of the
+second string in the first string as a list. If the second string is not present in the first string then
+it should return -1."""
+# def find_occurrences(str1, str2):
+#     indices = []  # List to store the indices of occurrences
+#     index = str1.find(str2)  # Find the first occurrence of str2 in str1
+
+#     while index != -1:
+#         indices.append(index)  # Add the index to the list
+#         index = str1.find(str2, index + 1)  # Find the next occurrence, starting from the next position
+
+#     return indices if indices else -1  # Return the list of indices or -1 if no occurrences
+
+# # Example usage
+# str1 = input("Enter the first string: ")
+# str2 = input("Enter the second string: ")
+# result = find_occurrences(str1, str2)
+# print(result)
+
 
